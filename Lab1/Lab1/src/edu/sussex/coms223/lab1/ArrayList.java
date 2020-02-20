@@ -26,6 +26,7 @@ public class ArrayList <E> implements List<E> {
 				if (data[i].equals(e))
 					newData[j++] = data[i];
 			}
+			
 		}
 		return removed > 0;
 	}
